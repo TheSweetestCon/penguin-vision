@@ -1,0 +1,7 @@
+path: C:/Users/Matheus/Documents/Penguin Vision/dataset_combinado
+train: images/train
+val: images/valid
+test: images/test
+
+nc: 1
+names: ['penguin']

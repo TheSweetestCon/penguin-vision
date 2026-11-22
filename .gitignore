@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+datasets_originais/
+dataset_combinado/train/
+dataset_combinado/valid/
+dataset_combinado/test/
+*.zip
+last.pt
