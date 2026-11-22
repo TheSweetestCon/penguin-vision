@@ -1,0 +1,11 @@
+RELATORIO DE UNIFICACAO
+Imagens lidas com anotacoes validas: 974
+Grupos de imagens duplicadas: 0
+Grupos duplicados com anotacoes conflitantes e ignorados: 0
+Imagens finais: 974
+Treino: 681
+Validacao: 196
+Teste: 97
+Itens ignorados/problemas: 0
+
+DETALHES DOS PROBLEMAS:
