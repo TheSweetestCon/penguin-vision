@@ -25,9 +25,9 @@ duplicadas ou imprecisas e dificuldade em cenas densas, com pinguins pequenos.
 | `results/val*/` | Matriz de confusão, curvas P/R/F1/PR e lotes de validação |
 | `docs/` | Relatório final em PDF |
 
-As imagens dos datasets **não** estão incluídas (ver abaixo).
+As imagens estão incluídas em `datasets_originais/` (como baixadas do Roboflow) e em `dataset_combinado/` (base unificada).
 
-## Datasets (baixar no Roboflow Universe, formato YOLO)
+## Datasets (origem: Roboflow Universe, formato YOLO)
 
 | Dataset | Licença | Link |
 |---------|---------|------|
@@ -40,7 +40,7 @@ Atribuição: imagens e anotações pertencem aos autores dos datasets acima, co
 
 ## Como reproduzir
 
-1. Baixe os três datasets e coloque cada um em `datasets_originais/`.
+1. Os três datasets já estão em `datasets_originais/` (ou baixe-os de novo nos links acima).
 2. Auditoria: `python scripts/auditar_datasets_pinguins.py`
 3. Unificação: `python scripts/unificar_datasets_pinguins.py` (gera `dataset_combinado/`)
 4. Treinamento (a partir de `dataset_combinado/`):

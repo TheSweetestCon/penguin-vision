@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Penguin']
+
+roboflow:
+  workspace: wingcv
+  project: penguins-6hqac
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/wingcv/penguins-6hqac/dataset/1

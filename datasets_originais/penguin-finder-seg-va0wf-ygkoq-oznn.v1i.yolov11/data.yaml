@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Penguin']
+
+roboflow:
+  workspace: rf100-vl
+  project: penguin-finder-seg-va0wf-ygkoq-oznn
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/rf100-vl/penguin-finder-seg-va0wf-ygkoq-oznn/dataset/1

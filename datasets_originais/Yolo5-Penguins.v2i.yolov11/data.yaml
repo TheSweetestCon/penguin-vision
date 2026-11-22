@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Penguins']
+
+roboflow:
+  workspace: yaron-naim-5oxmj
+  project: yolo5-penguins
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yaron-naim-5oxmj/yolo5-penguins/dataset/2
