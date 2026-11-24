@@ -56,6 +56,13 @@ yolo detect val model=runs/detect/train/weights/best.pt data=data.yaml split=val
 yolo detect val model=runs/detect/train/weights/best.pt data=data.yaml split=test
 ```
 
+6. Analisar as imagens
+
+Troque o valor de `conf` pelo valor desejado (aqui foi utilizado 0.25, 0.50 e 0.70).
+```
+yolo detect predict model=runs/detect/train/weights/best.pt source=images/valid conf=0.70 save=True
+```
+
 ## Ambiente utilizado
 
 Windows, Python 3.14.6, Ultralytics 8.4.191, PyTorch 2.14.1 (CPU), Intel Core i7-11700K.
